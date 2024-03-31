@@ -1,7 +1,3 @@
-/* Opciones proyecto final 
- Juego de rol/elige tu propia aventura lineal
- Pequeño ecommerce => login, agregar producto al carrito, eliminar del carrito, aumentar cantidad, disminuir cantidad, pagar, salir, ver catalogo, etc
-*/
 function nombrarBrujo() {
     let name = prompt("Decides revisar tu morral en busca de algo que te ayude a recordar tu nombre, dentro encuentras una carta con el sello del rey, roto.\n\nDecides leer la carta, en ella ves tu nombre a simple vista...\n\nTe llamas")
     let flag = false
@@ -217,7 +213,7 @@ function main() {
         }
 
     }
-    alert("Al caer la noche entras a la ciudad de Wyzima, es una ciudad grande y poblada, hay espectalos callejeros y vendedores ambulantes, tambien una gran cantidad de guardias.\n\nTienes 3 opciones, ir a ver al rey Radovid, dormir en la calle, o bien pasar la noche en una posada.")
+    alert("Al caer la noche entras a la ciudad de Wyzima, es una ciudad grande y poblada, hay espectaculos callejeros y vendedores ambulantes, tambien una gran cantidad de guardias.\n\nTienes 3 opciones, ir a ver al rey Radovid, dormir en la calle, o bien pasar la noche en una posada.")
     decision = pasarNoche(oro)
     if (decision === 1) {
         oro -= 30
